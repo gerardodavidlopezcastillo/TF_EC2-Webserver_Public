@@ -1,3 +1,17 @@
+# TF_EC2-Webserver_Public
+## **Description Details:**
+
+This repository contains a detailed tutorial and code examples for deploying a web server on AWS EC2 using Terraform. Steps include configuring Terraform settings and providers blocks, creating a resource block for the EC2 server, and installing an Apache web server with userdata. It also demonstrates accessing the deployed application.
+
+Steps include:
+- Configuring Terraform settings and providers.
+- Creating an EC2 server with a userdata file for web server installation and configuration.
+- Accessing the deployed web application through specific URLs.
+
+Additionally, instructions are provided for cleaning up created resources, and upcoming concepts are mentioned such as creating multiple EC2 instances, parameterization with input variables, extracting instance information, and more.
+
+This repository is ideal for those looking to learn how to use Terraform for cloud infrastructure management and deploying web applications on AWS EC2 in an automated and reproducible manner.
+
 # Terraform Settings, Providers & Resource Blocks
 ## Step-01: Introduction
 - [Terraform Settings](https://www.terraform.io/docs/language/settings/index.html)
